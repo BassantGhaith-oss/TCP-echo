@@ -2,7 +2,7 @@ import socket
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-client.connect(("192.168.1.4",5000))
+client.connect(("0.0.0.0",5000))
 
 client.sendall(b"Hello from client...")
 
